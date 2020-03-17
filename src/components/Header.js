@@ -1,12 +1,12 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
-import GitHubButton from 'react-github-btn';
+// import GitHubButton from 'react-github-btn';
 import Link from './link';
 import Loadable from 'react-loadable';
 
 import config from '../../config.js';
 import LoadingProvider from './mdxComponents/loading';
-import { DarkModeSwitch } from './DarkModeSwitch';
+// import { DarkModeSwitch } from './DarkModeSwitch';
 
 const help = require('./images/help.svg');
 
@@ -45,7 +45,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
       query headerTitleQuery {
         site {
           siteMetadata {
-            headerTitle
+            # headerTitle
             githubUrl
             helpUrl
             tweetText
@@ -126,44 +126,8 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
                     );
                   }
                 })}
-                {helpUrl !== '' ? (
-                  <li>
-                    <a href={helpUrl}>
-                      <img src={help} alt={'Help icon'} />
-                    </a>
-                  </li>
-                ) : null}
-                {tweetText !== '' || githubUrl !== '' ? (
-                  <li className="divider hiddenMobile"></li>
-                ) : null}
-                {tweetText !== '' ? (
-                  <li>
-                    <a
-                      href={'https://twitter.com/intent/tweet?&text=' + tweetText}
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <img className={'shareIcon'} src={twitter} alt={'Twitter'} />
-                    </a>
-                  </li>
-                ) : null}
-                {githubUrl !== '' ? (
-                  <li className={'githubBtn'}>
-                    <GitHubButton
-                      href={githubUrl}
-                      data-show-count="true"
-                      aria-label="Star on GitHub"
-                    >
-                      Star
-                    </GitHubButton>
-                  </li>
-                ) : null}
-                <li>
-                  <DarkModeSwitch
-                    isDarkThemeActive={isDarkThemeActive}
-                    toggleActiveTheme={toggleActiveTheme}
-                  />
-                </li>
+                
+                
               </ul>
             </div>
           </nav>

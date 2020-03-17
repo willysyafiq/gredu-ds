@@ -1,47 +1,47 @@
 const config = {
 	"gatsby": {
 		"pathPrefix": "/",
-		"siteUrl": "https://learn.hasura.io",
+		"siteUrl": "https://gredu-ds.netlify.com",
 		"gaTrackingId": null,
 		"trailingSlash": false
 	},
 	"header": {
-		"logo": "https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/favicon.png",
-		"logoLink": "https://learn.hasura.io",
-		"title": "Gatsby Gitbook Boilerplate",
-		"githubUrl": "https://github.com/hasura/gatsby-gitbook-boilerplate",
+		"logo": "https://gredu.asia/_nuxt/img/98ee67f.png",
+		"logoLink": "http://localhost:8000/",
+		"title": "Gredu Design System",
+		"githubUrl": "#",
 		"helpUrl": "",
 		"tweetText": "",
 		"links": [
 			{ "text": "", "link": ""}
 		],
 		"search": {
-			"enabled": false,
-			"indexName": "",
-			"algoliaAppId": process.env.GATSBY_ALGOLIA_APP_ID,
-			"algoliaSearchKey": process.env.GATSBY_ALGOLIA_SEARCH_KEY,
-			"algoliaAdminKey": process.env.ALGOLIA_ADMIN_KEY
+			"enabled": true,
+			"indexName": "dev_GREDU",
+			"algoliaAppId": "S1XUHMZVTD",
+			"algoliaSearchKey": "a4a86cf2d8bbff44ea6b24e1ff981636",
+			"algoliaAdminKey": "f54c1a6886f3f763f656d44010214d51"
 		}
 	},
 	"sidebar": {
 		"forcedNavOrder": [
 			"/introduction", // add trailing slash if enabled above
-    		"/codeblock"
+    		// "/codeblock"
 		],
     	"collapsedNav": [
-      		"/codeblock" // add trailing slash if enabled above
+      		 //"/codeblock"  add trailing slash if enabled above
     	],
 		"links": [
-			{ "text": "Hasura", "link": "https://hasura.io"},
+			{ "text": "Gredu Official Website", "link": "https://gredu.asia"},
 		],
 		"frontline": false,
 		"ignoreIndex": true,
 	},
 	"siteMetadata": {
-		"title": "Gatsby Gitbook Boilerplate | Hasura",
-		"description": "Documentation built with mdx. Powering learn.hasura.io ",
+		"title": "Gredu Design System",
+		"description": "Collection of Guidelines and Components which can be used to create amazing user experiences.",
 		"ogImage": null,
-		"docsLocation": "https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content",
+		"docsLocation": "#",
 		"favicon": "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg"
 	},
 	"pwa": {

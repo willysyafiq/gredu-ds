@@ -1,7 +1,7 @@
 import { injectGlobal } from 'emotion';
 
 export const baseStyles = injectGlobal`
-  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700&display=swap');
 
   * {
     margin: 0;
@@ -24,10 +24,7 @@ export const baseStyles = injectGlobal`
   }
   html,
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Roboto Light', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif,
-      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
   }
 
@@ -36,9 +33,6 @@ export const baseStyles = injectGlobal`
     color: #663399;
   }
 
-  body {
-    font-family: 'Roboto';
-  }
   .visibleMobile {
     display: none;
   }
@@ -141,17 +135,17 @@ export const baseStyles = injectGlobal`
     align-items: center;
   }
   .formElement {
-    background-color: transparent;
-    padding: 4px;
-    /* border-radius: 4px; */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(90,94,154,.1);
+    padding: 12px;
+    border-radius: 8px;
+    border-bottom: 0px solid rgba(255, 255, 255, 0.3);
   }
   .formElement:focus {
     outline: none;
     border: none;
   }
   .formElement svg path {
-    fill: #fff;
+    fill: #484c7a;
   }
   .searchInput {
     width: calc(100% - 26px);
@@ -215,13 +209,13 @@ export const baseStyles = injectGlobal`
   }
   .headerTitle {
     height: auto;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 1.5;
-    font-weight: 500;
-    color: #fff !important;
+    font-weight: 700;
+    color: #313131 !important;
   }
   .headerTitle a {
-    color: #fff;
+    color: #313131;
   }
 
   .headerTitle a:hover {
@@ -244,7 +238,7 @@ export const baseStyles = injectGlobal`
 
   /* Header section starts here */
   .navBarDefault {
-    background-color: #372476;
+    background-color: #fff;
     border-radius: 0;
     border-top: 0;
     margin-bottom: 0;
@@ -346,7 +340,7 @@ export const baseStyles = injectGlobal`
   }
 
   .sideBarUL li a {
-    color: #fff;
+    color: #313131;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.5;
@@ -369,11 +363,11 @@ export const baseStyles = injectGlobal`
   }
 
   .hideFrontLine .active > a {
-    background-color: #542683;
-    color: #fff !important;
+    background-color: transparent;
+    color: #313131 !important;
   }
   .firstLevel ul li .collapser svg path {
-    fill: #fff !important;
+    fill: #313131 !important;
   }
   .active .collapser > svg > path {
     fill: #663399 !important;
@@ -388,7 +382,7 @@ export const baseStyles = injectGlobal`
     padding: 0;
   }
   .sideBarUL .item > a {
-    color: #fff;
+    color: #313131;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -402,11 +396,11 @@ export const baseStyles = injectGlobal`
     color: #fff !important;
   }
   .showFrontLine .item > a:hover {
-    background-color: #542683;
+    background-color: #fff;
   }
   .showFrontLine .active > a {
     color: #fff;
-    background-color: #473485;
+    background-color: transparent;
   }
 
   .sideBarUL .item .item {
@@ -661,7 +655,8 @@ export const baseStyles = injectGlobal`
     }
     .headerTitle {
       padding-right: 50px;
-      font-size: 20px;
+      font-size: 18px;
+      font-weight: 700;
     }
     .navBarBrand {
       min-height: 40px;

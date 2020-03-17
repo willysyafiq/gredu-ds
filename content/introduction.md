@@ -1,32 +1,20 @@
 ---
-title: "Introduction"
-metaTitle: "This is the title tag of this page"
-metaDescription: "This is the meta description"
+title: "Get Started"
+metaTitle: "Get Started"
+metaDescription: "Introduction, Things & Tools Installation"
 ---
 
-Some introduction text. Lists out all the headings from h1 to h6. Easy to customise.
+# Introduction
+We want to create harmonious experiences for our users. We solve challenging interactions at the outset, and then apply the solutions consistently across our product suite - making sure people only have to learn them once.
 
-# Heading H1
-Heading 1 text
+Our guidelines have space for flexibility, and are continuously revised and expanded to suit changing product needs.
 
-## Heading H2
-Heading 2 text
-
-### Heading H3
-Heading 3 text
-
-#### Heading H4
-Heading 4 text
-
-##### Heading H5
-Heading 5 text
-
-###### Heading H6
-Heading 6 text
-
-## Lists
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+# Getting the right tools
+- **Sketch App**  *(Our main tool for low and high fidelity design)*
+- **Abstract**  *(Versioning and collaboration tools)*
+- **Zeplin**  *(Our Design Handoff tools)*
+- **Invision**  *(Click through prototype, it can be used for low as well as high fidelity stage)*
+- **Jira**  *(Issue tracking and agile project management for Designers, PMs, Engineers, and Stakeholders)*
+- **Trello**  *(Kanban Board app that we use for Design System related works only)*
+- **Slack**  *(Our main messaging platform)*
+    
