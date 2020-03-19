@@ -482,13 +482,15 @@ export const baseStyles = injectGlobal`
   }
 
   /* tables.css */
+
   table {
     padding: 0;
+    // width: 100%;
   }
 
   table tr {
-    border-top: 1px solid #cccccc;
-    margin: 0;
+    border-top: 0px solid #cccccc;
+    margin-top: 0;
     padding: 0;
   }
 
@@ -498,17 +500,17 @@ export const baseStyles = injectGlobal`
 
   table tr th {
     font-weight: bold;
-    border: 1px solid #cccccc;
+    border: 0px solid #cccccc;
     text-align: left;
     margin: 0;
     padding: 6px 13px;
   }
 
   table tr td {
-    border: 1px solid #cccccc;
+    border: 0px solid #cccccc;
     text-align: left;
     margin: 0;
-    padding: 6px 13px;
+    padding: 0rem 1rem 4rem 1rem;
   }
 
   table tr th :first-child,
