@@ -6,10 +6,10 @@ const config = {
 		"trailingSlash": false
 	},
 	"header": {
-		"logo": "https://gredu.asia/_nuxt/img/98ee67f.png",
+		"logo": "${__dirname}/src/components/images/logo.svg",
 		"logoLink": "http://localhost:8000/",
 		"title": "Gredu Design System",
-		"githubUrl": "#",
+		"githubUrl": "",
 		"helpUrl": "",
 		"tweetText": "",
 		"links": [
@@ -42,7 +42,7 @@ const config = {
 		"description": "Collection of Guidelines and Components which can be used to create amazing user experiences.",
 		"ogImage": null,
 		"docsLocation": "#",
-		"favicon": "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg"
+		"favicon": "https://gredu.asia/favicon.ico"
 	},
 	"pwa": {
 		"enabled": false, // disabling this will also remove the existing service worker.

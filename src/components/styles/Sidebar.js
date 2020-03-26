@@ -15,16 +15,17 @@ export const Sidebar = styled('aside')`
   background: ${props => props.theme.colors.background};
 
   .rightSideTitle {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 1;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.2px;
-    padding: 7px 24px 7px 16px;
+    padding: 7px 24px 12px 16px;
     border-left: 1px solid #e6ecf1;
     border-left-color: rgb(230, 236, 241);
 
-    color: ${props => props.theme.colors.text};
+    // color: ${props => props.theme.colors.text};
+    color: #314457;
   }
 
   .rightSideBarUL {
@@ -38,12 +39,13 @@ export const Sidebar = styled('aside')`
   }
 
   .rightSideBarUL li a {
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
     line-height: 1.5;
-    padding: 7px 24px 7px 16px;
+    padding: 6px 24px 6px 16px;
 
-    color: ${props => props.theme.colors.text};
+    // color: ${props => props.theme.colors.text};
+    color: #314457;
   }
 
   @media only screen and (max-width: 50rem) {
@@ -70,7 +72,9 @@ export const ListItem = styled(({ className, active, level, ...props }) => {
     position: relative;
 
     &:hover {
-      color: rgb(116, 76, 188) !important;
+      // color: rgb(116, 76, 188) !important;
+      color: #314457 !important;
+      background: #eaf0fd !important;
     }
 
     ${props =>

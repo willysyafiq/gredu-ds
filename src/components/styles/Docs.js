@@ -3,13 +3,14 @@ import styled from '@emotion/styled';
 export const StyledHeading = styled('h1')`
   font-size: 32px;
   line-height: 1.5;
-  font-weight: 500;
-  border-left: 2px solid rgb(116, 76, 188);
-  padding: 0 16px;
+  font-weight: bold;
+  // border-left: 3px solid #455DC7;
+  // padding: 0 16px;
   flex: 1;
   margin-top: 0;
   padding-top: 0;
-  color: ${props => props.theme.colors.heading};
+  // color: ${props => props.theme.colors.heading};
+  color: #314457;
 `;
 
 export const Edit = styled('div')`

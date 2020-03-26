@@ -24,7 +24,8 @@ const ListItem = styled(({ className, active, level, ...props }) => {
     position: relative;
 
     &:hover {
-      color: rgb(116, 76, 188) !important;
+      background-color: #eaf0fd;
+      color: #314457 !important;
     }
 
     ${props =>
@@ -56,7 +57,7 @@ const Sidebar = styled('aside')`
   position: sticky;
   top: 0;
   padding-right: 0;
-  background-color: #EEEEF3;
+  background-color: #f7f8fa;
   
 
   @media only screen and (max-width: 1023px) {
@@ -69,8 +70,8 @@ const Sidebar = styled('aside')`
   }
   @media only screen and (max-width: 767px) {
     padding-left: 0px;
-    background-color: #372476;
-    background: #372476;
+    background-color: #f7f8fa;
+    background: #f7f8fa;
     height: auto;
   }
 `;
@@ -87,7 +88,7 @@ const Divider = styled(props => (
     margin: 0;
     padding: 0;
     border: 0;
-    border-bottom: 1px solid #ede7f3;
+    border-bottom: 1px solid #E7EFF3;
   }
 `;
 

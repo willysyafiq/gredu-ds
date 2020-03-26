@@ -28,9 +28,20 @@ export const baseStyles = injectGlobal`
     font-size: 16px;
   }
 
+  .logo-type{
+    font-size: 1.75rem;
+    color: #314457;
+    font-weight: 600;
+  }
+
+  .logo-brand{
+    height: 48px !important;
+  }
+
   a {
     transition: color 0.15s;
-    color: #663399;
+    color: #455dc7;
+    font-weight: 600;
   }
 
   .visibleMobile {
@@ -135,23 +146,24 @@ export const baseStyles = injectGlobal`
     align-items: center;
   }
   .formElement {
-    background-color: rgba(90,94,154,.1);
+    background-color: #f7f8fa;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: 4px;
     border-bottom: 0px solid rgba(255, 255, 255, 0.3);
   }
   .formElement:focus {
+    color: #314457;
     outline: none;
     border: none;
   }
   .formElement svg path {
-    fill: #484c7a;
+    fill: #62717a;
   }
   .searchInput {
     width: calc(100% - 26px);
     background-color: transparent !important;
     border-width: 0 !important;
-    color: #c2c2c2;
+    color: #314457;
   }
   .searchInput:focus,
   .searchInput:visited,
@@ -179,7 +191,8 @@ export const baseStyles = injectGlobal`
     max-width: 30em;
     top: 40px;
     border: 1px solid #ccc;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.16);
+    // box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.16) !important;
+    box-shadow: -1px 0px 8px 1px rgba(149,167,175,0.4) !important;
     height: auto;
     max-height: 80vh;
     overflow: scroll;
@@ -212,10 +225,10 @@ export const baseStyles = injectGlobal`
     font-size: 24px;
     line-height: 1.5;
     font-weight: 700;
-    color: #313131 !important;
+    color: #314457 !important;
   }
   .headerTitle a {
-    color: #313131;
+    color: #314457;
   }
 
   .headerTitle a:hover {
@@ -245,12 +258,13 @@ export const baseStyles = injectGlobal`
     border: 0;
     display: flex;
     align-items: center;
-    box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
-    -webkit-box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
-    -moz-box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.8);
-    -o-box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
+    box-shadow: -1px 0px 4px 1px rgba(149, 167, 175, 0.4);
+    -webkit-box-shadow: -1px 0px 4px 1px rgba(149, 167, 175, 0.4);
+    -moz-box-shadow: -1px 0px 4px 1px rgba(149, 167, 175, 0.8);
+    -o-box-shadow: -1px 0px 4px 1px rgba(149, 167, 175, 0.4);
     z-index: 1;
-    padding: 15px;
+    // padding: 18px 18px 18px 32px;
+    padding: 16px 18px 16px 24px;
     position: relative;
   }
   .navBarHeader {
@@ -267,8 +281,9 @@ export const baseStyles = injectGlobal`
   }
 
   .navBarBrand img {
-    width: 40px;
-    margin-right: 16px;
+    // width: 100%;
+    height: 48px;
+    margin-right: 16px; 
     display: inline-block;
   }
   .navBarUL li {
@@ -340,7 +355,7 @@ export const baseStyles = injectGlobal`
   }
 
   .sideBarUL li a {
-    color: #313131;
+    color: #314457;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.5;
@@ -363,18 +378,29 @@ export const baseStyles = injectGlobal`
   }
 
   .hideFrontLine .active > a {
-    background-color: transparent;
-    color: #313131 !important;
+    background-color: #eaf0fd;
+    border-right: 4px solid #455dc7;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    color: #455dc7 !important;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
   }
   .firstLevel ul li .collapser svg path {
-    fill: #313131 !important;
+    fill: #314457 !important;
   }
   .active .collapser > svg > path {
     fill: #663399 !important;
   }
 
   .firstLevel ul .item ul .item {
-    border-left: 1px solid #e6ecf1;
+    border-left: 1px solid #E7EFF3;
+  }
+  .firstLevel ul .item ul .active {
+    border-right: 4px solid #455dc7 !important;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
   }
 
   .sideBarUL .item {
@@ -382,7 +408,7 @@ export const baseStyles = injectGlobal`
     padding: 0;
   }
   .sideBarUL .item > a {
-    color: #313131;
+    color: #314457;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -392,8 +418,8 @@ export const baseStyles = injectGlobal`
     padding-left: 15px;
   }
   .sideBarUL .item > a:hover {
-    background-color: #542683;
-    color: #fff !important;
+    background-color: #eaf0fd;
+    color: #314457 !important;
   }
   .showFrontLine .item > a:hover {
     background-color: #fff;
@@ -429,7 +455,7 @@ export const baseStyles = injectGlobal`
   .titleWrapper {
     display: flex;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 12px;
     border-bottom: 1px solid rgb(230, 236, 241);
     margin-bottom: 32px;
   }
@@ -644,6 +670,7 @@ export const baseStyles = injectGlobal`
     text-align: end;
     padding: 0;
   }
+
   .topnav {
     -webkit-transition: top 0.5s, bottom 0.5s;
   }

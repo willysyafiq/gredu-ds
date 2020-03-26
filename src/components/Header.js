@@ -6,6 +6,7 @@ import Loadable from 'react-loadable';
 
 import config from '../../config.js';
 import LoadingProvider from './mdxComponents/loading';
+import logoBrand from './images/logo-a.svg';
 // import { DarkModeSwitch } from './DarkModeSwitch';
 
 const help = require('./images/help.svg');
@@ -79,11 +80,20 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
           <nav className={'navBarDefault'}>
             <div className={'navBarHeader'}>
               <Link to={finalLogoLink} className={'navBarBrand'}>
-                <img
+                {/* <img
                   className={'img-responsive displayInline'}
                   src={logo.image !== '' ? logo.image : logoImg}
                   alt={'logo'}
+                /> */}
+                
+                {/* <div className="logo-type">Student App</div> */}
+
+                <img
+                  className={'img-responsive displayInline logo-brand'}
+                  src={logoBrand}
+                  alt={'logo'}
                 />
+
               </Link>
               <div
                 className={'headerTitle displayInline'}
@@ -95,11 +105,13 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
                 <span className={'iconBar'}></span>
               </span>
             </div>
+            
             {isSearchEnabled ? (
               <div className={'searchWrapper hiddenMobile navBarUL'}>
                 <LoadableComponent collapse={true} indices={searchIndices} />
               </div>
             ) : null}
+
             <div id="navbar" className={'topnav'}>
               <div className={'visibleMobile'}>
                 <Sidebar location={location} />
