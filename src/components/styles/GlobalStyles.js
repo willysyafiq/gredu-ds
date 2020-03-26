@@ -379,7 +379,7 @@ export const baseStyles = injectGlobal`
 
   .hideFrontLine .active > a {
     background-color: #eaf0fd;
-    border-right: 4px solid #455dc7;
+    // border-right: 4px solid #455dc7;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
     color: #455dc7 !important;
@@ -521,7 +521,7 @@ export const baseStyles = injectGlobal`
   }
 
   table tr:nth-child(2n) {
-    background-color: #f8f8f8;
+    background-color: #ffffff;
   }
 
   table tr th {

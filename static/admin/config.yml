@@ -18,3 +18,16 @@ collections:
       - { label: "metaTitle", name: "metaTitle", widget: "string" }
       - { label: "metaDescription", name: "metaDescription", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+  
+  - name: "resources"
+    label: "Resources"
+    folder: "content/resources"
+    create: true
+    slug: "{{slug}}"
+    editor:
+     preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "metaTitle", name: "metaTitle", widget: "string" }
+      - { label: "metaDescription", name: "metaDescription", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
