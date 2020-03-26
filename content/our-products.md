@@ -5,7 +5,7 @@ metaDescription: "Our Product Ecosystem"
 ---
 
 # Student Platform
-
+![alt](https://mdx-logo.now.sh)
 - Android
 - iOS 
 - Web
