@@ -64,7 +64,8 @@ const HitsWrapper = styled.div`
   }
   mark {
     color: ${props => props.theme.lightBlue};
-    background: ${props => props.theme.darkBlue};
+    // background: ${props => props.theme.darkBlue};
+    background: #EAF3FD;
   }
   header {
     display: flex;

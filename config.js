@@ -7,7 +7,7 @@ const config = {
 	},
 	"header": {
 		"logo": "${__dirname}/src/components/images/logo.svg",
-		"logoLink": "http://localhost:8000/",
+		"logoLink": "https://gredu-ds.netlify.com/",
 		"title": "Gredu Design System",
 		"githubUrl": "",
 		"helpUrl": "",
