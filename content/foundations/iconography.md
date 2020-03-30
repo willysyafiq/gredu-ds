@@ -38,8 +38,8 @@ System Icon used for main interaction such as back, upload, delete, etc. For thi
 - Use relevant colors with the rest Applet Icon on the related screen theme
 - Use minimal color as possible, currently max colors for Applet Icon are 4 colors
 
+![Icons](/img/icons.png "Icons")
 
 ## How to Export
 
 Go to the symbol page and export right from the artboard.
-
