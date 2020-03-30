@@ -56,3 +56,5 @@ Status: **Fails AA**<br/>
     <td style="padding: .5rem 1rem 1rem 1rem;">TBD</td>
 </tr>
 </table>
+
+![Color Palette](/img/color-palette.png "Color Palette")
