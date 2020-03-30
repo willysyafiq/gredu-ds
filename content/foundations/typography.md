@@ -4,26 +4,26 @@ metaTitle: "Typography"
 metaDescription: "Typography"
 ---
 
-# Typeface
+## Typeface
 Our typography, the most important medium of communication in our platform, needs to be perfectly legible to convey the core value of our brand.
 
-# Our Typeface
-Nunito-Sans
+## Nunito Sans
+![Font Nunito Sans](/img/nunito-sans.png "Nunito Sans")
 
-# Weight Used
+## Weight Used
 - Reguler
 - Semi-Bold
 - Semi-Bold Italic
 - Bold
 - Bold Italic
 
-# Usage
+## Usage
 Keeping consist and sticking to logical hierarchies ensures that elements in the UI are clear and easily recognizable when scanning the page. Text sizes, styles, and layouts were selected to balance content and UI and to foster familiarity.
 
 ## Line Height
 Generally, we use x1.5 for long text such as body text and we use x1.25 for shorter text such as label.
 
-# Styles
+## Styles
 We aim to use efficient text styles, try to use mininmal variations as possible.
 
 <table style="font-size: 0.925rem; line-height:1.65rem; vertical-align:top;">
@@ -224,6 +224,6 @@ We aim to use efficient text styles, try to use mininmal variations as possible.
 </tr>
 </table>
 
-# Line Length
+## Line Length
 
 Set the reading environment to suit the reader. Wide lines of text are difficult to read and make it harder for people to focus. While there is no right way to measure the perfect width for text, a good goal is to aim for between 60 and 100 characters per line including spacing. Setting an optimal line length will break up content into easily digestible information.

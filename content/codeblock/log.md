@@ -4,23 +4,16 @@ metaTitle: "Log"
 metaDescription: "Log"
 ---
 
-The following is a code block with JavaScript language syntax highlighting.
+### What’s improved (Version 0.1)
 
-```javascript
-import React from 'react';
-```
-
-Supports multiple languages.
-
-The following is a code block with diff. Lines with `+` highlighted in green shade indicating an addition. Lines with `-` highlighted in red shade indicating a deletion.
-
-```javascript
-- const data = ['1','2'];
-+ const data = [1,2];
-```
-
-## Live Editing example
-
-```javascript react-live=true
-<button className={'btn btn-default'}>Change my text</button>
-```
+- UI Kit now use Atomic Design approach.
+- Foundations and Components are in separate Abstract project for scalability (future integration with another platform).
+- Removed unnecessary or redundant colors.
+- New color palette system (partially tested using the WCAG 2.0 standard).
+- Improved Typography (hieararchy, naming system, line-height, color used, etc.).
+- Centralized and unified assets (icons & illustrations).
+- Improved spacing for better usability.
+- Improved components
+- Resources: New name collections (student, parent, teacher) for UI/UX needs
+- Added some helpful links such as link to testing environments, Gredu website, etc.
+- Getting started page for new comer (tools, workflow, etc.)

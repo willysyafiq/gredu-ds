@@ -5,7 +5,6 @@ metaDescription: >-
   A collection of accounts for testing in the development and production
   environment
 ---
-# Note
 
 A collection of accounts for testing in the development and production environment.
 

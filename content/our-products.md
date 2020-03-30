@@ -4,25 +4,27 @@ metaTitle: "Our Products"
 metaDescription: "Our Product Ecosystem"
 ---
 
-# Student Platform
-![alt](https://mdx-logo.now.sh)
+## Student Platform
 - Android
 - iOS 
 - Web
 
-# Parent Platform
+## Parent Platform
 
 - Android
 - iOS
 
-# Teacher Platform
+## Teacher Platform
 
 - Android
 - iOS
 - Web
 
-# PPDB (Penerimaan Peserta Didik Baru)
+## PPDB (Penerimaan Peserta Didik Baru)
+- Web
 
-# OMS (Operational Management System)
+## OMS (Operational Management System)
+- Web
 
-# SMS (School Management System)
+## SMS (School Management System)
+- Web
